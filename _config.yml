@@ -3,7 +3,7 @@
 title: Fergus Mok
 description: subtitle | affiliations | motto
 
-baseurl: /fergus.mk #name of GitHub repository
+baseurl: /fergus-mk #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
 email: #
 
@@ -17,7 +17,7 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
+# facebook: "#"
 twitter: "fergusmok"
 linkedin: "#"
 github: "fergusmk"
