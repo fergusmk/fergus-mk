@@ -3,7 +3,7 @@
 title: Fergus Mok
 description: PhD Student @ University of Cambridge
 
-baseurl: /fergus-mk #name of GitHub repository
+baseurl: / #fergus-mk #name of GitHub repository
 url: "fergus.mk" #custom url to be used instead of GitHub repository
 email: #
 
