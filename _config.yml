@@ -21,8 +21,8 @@ paginate_path: /blog/page:num/
 twitter: "fergusmok"
 linkedin: "#"
 github: "fergusmk"
-researchgate: "#"
-orcid: "#"
+# researchgate: "#"
+orcid: "0000-0001-6971-1474"
 
 highlighter: rouge
 markdown: kramdown
