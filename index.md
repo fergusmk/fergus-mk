@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-Hi! I'm Fergus, and I like trains!
+Hi! I'm Fergus, and I like trains and cars!
 
 I also like listening to mellow ukulele sounds and taking long walks on the beach 🏖.
 
