@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Fergus Mok
-description: PhD Student @ University of Cambridge
+description: PhD Student @ FIBE2 CDT, University of Cambridge
 
 baseurl: / #fergus-mk #name of GitHub repository
 url: "https://www.fergus.mk" #custom url to be used instead of GitHub repository
-email: #
+email: "cym23@cam.ac.uk"
 
 
 highlighter: rouge
@@ -18,11 +18,11 @@ paginate_path: /blog/page:num/
 
 # Social media links in footer
 # facebook: "#"
-twitter: "fergusmok"
-linkedin: "#"
-github: "fergusmk"
-# researchgate: "#"
-orcid: "0000-0001-6971-1474"
+# twitter: "fergusmok"
+linkedin: "fergus-mok-8838b9237"
+github: "Soppy-Minotaur"
+researchgate: "Ching-Yau-Fergus-Mok"
+orcid: "0000-0002-8657-2506"
 
 highlighter: rouge
 markdown: kramdown
