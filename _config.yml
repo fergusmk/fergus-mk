@@ -47,6 +47,12 @@ collections:
     output: true
     permalink: /projects/:path/
 
+collections:
+  publications:
+    output: true
+    permalink: /:publications/:path/
+
+
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
