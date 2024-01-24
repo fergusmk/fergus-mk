@@ -24,10 +24,15 @@ Research activities
 ### Data Collection ###
 Data was collected on roads around Cambridge. 2D RGB images were collected using an iPad, while 3D point clouds were collected by a FARO Laser Scanner.
 
-### Data Processing ###
-To similate the process of creating a road digital twin, the relative locations of the defects need to be preserved, which also aids in future efforts to co-locate defects in both modalties. 
-
 ![FARO scanner in action](/assets/images/faro_scanner.png "Laser scanning the geometry of potholes")
+
+### Data Processing ###
+To take advantage of well studied 2D object detection techniques, and noting the planar nature of most road defects, a 2D quadratic plane was fitted to the road surface, to which the point clouds were projected onto.
+
+![Raw, registered point cloud data](/assets/images/recap.png "Raw, registered point cloud data")
+
+![Projection of points in 3D space to the fitted road surface](/assets/images/quadratic_fit.png "Projection of points in 3D space to the fitted road surface")
+
 
 
 
