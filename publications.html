@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /publications/
+title: Publications
+---
+
+<div>
+	{% for publication in site.publications %}
+	{% unless publication.next %}
+	<h3><small>{{ publication.date | date: '%B %Y' }}</small></h3>
+	{% else %}
+	{% capture year %}{{ publication.date | date: '%Y %b' }}{% endcapture %}
+	{% capture nyear %}{{ publication.next.date | date: '%Y %b' }}{% endcapture %}
+	{% if year != nyear %}
+	<h3><small>{{ publication.date | date: '%B %Y' }}</small></h3>
+	{% endif %}
+	{% endunless %}
+    <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a><br>
+	{% endfor %}
+</div>

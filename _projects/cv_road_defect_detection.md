@@ -9,64 +9,17 @@ A research project about using computer vision techniques to automatically detec
 Motivation
 ============
 
-Paragraphs are separated by a blank line.
+Road defect detection is mostly performed manually, which is inefficient, inaccurate, and unscalable. It is difficult to improve both the quality and frequency of surveys. Therefore, automated methods have been explored. 
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+> The perceived benefits of more frequent road inspection is too low to justify its implementation.
 
-  * this one
-  * that one
-  * the other one
-
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+There are two main modalities of data that can be used for defect detection: 2D RGB images and 3D point cloud images. However, when each modality should be used is not well understood. This project aims at bridging that gap by investigating the stregnths and weaknesses of each input modality. 
 
 
 Research activities
-------------
+============
 
-Here's a numbered list:
 
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
 
 Results
 ------------
