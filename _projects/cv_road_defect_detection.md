@@ -13,7 +13,7 @@ Road defect detection is mostly performed manually, which is inefficient, inaccu
 
 > The perceived benefits of more frequent road inspection is too low to justify its implementation.
 
-A further motivation for developing automated detection methods is the proposal to create a [Road Digital Twin](https://drf.eng.cam.ac.uk/research/digital-twins). This proposal relies on having frequent, high quality data as inputs in order to maximize the potential benefits.
+A further motivation for developing automated detection methods is the proposal to create a [Road Digital Twin](https://drf.eng.cam.ac.uk/research/digital-twins). This proposal relies on having frequent, high quality data as inputs in order to maximize the potential utility.
 
 There are two main modalities of data that can be used for defect detection: 2D RGB images and 3D point cloud images. However, when each modality should be used is not well understood. This project aims at bridging that gap by investigating the stregnths and weaknesses of each input modality. 
 
@@ -25,7 +25,9 @@ Research activities
 Data was collected on roads around Cambridge. 2D RGB images were collected using an iPad, while 3D point clouds were collected by a FARO Laser Scanner.
 
 ### Data Processing ###
-To 
+To similate the process of creating a road digital twin, the relative locations of the defects need to be preserved, which also aids in future efforts to co-locate defects in both modalties. 
+
+![FARO scanner in action](/assets/images/faro_scanner.png "Laser scanning the geometry of potholes")
 
 
 
