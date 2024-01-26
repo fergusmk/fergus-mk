@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Road Defect Detection (Computer Vision)
+title: Road Defect Detection 
 description: Road defect detection through RGB and depth data
 ---
 A research project about using computer vision techniques to automatically detect and classify road defects.
