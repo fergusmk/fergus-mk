@@ -13,7 +13,7 @@ A very common issue facing machine learning practitionists is data scarcity. Thi
 
 Now, getting more data is one way of doing it. But let's face it, many domain-specific data are privately owned, and even if they are accessible, they are probably not well labelled for your task.
 
-Instead, I decided to tackle it in a different angle, making the models more data-efficient.
+Instead, I decided to tackle it at a different angle, making the models more data-efficient.
 
 Research activities
 ============
@@ -31,9 +31,14 @@ The final dataset contained over 400,000 entries for 83 classes. Other than the 
 
 Here are a some examples of the dataset:
 
-I OBSERVED DEBRIS (COLD PATCH) BELONGING TO THE ABOVE RESPONDENT OBSTRUCTING ROADWAY GUTTERS. SITE UN ATTENDED. LOCATED OPPOSITE 265 23RD ST. If not admitting the charge, you MUST APPEAR IN PERSON. ----------> Debris/construction materials obstructing gutters/sidewalk, etc.   
-          |
-Bubbled pedestrian warning devise not install on ped ramp as required by DOT specs. ----------> Except as in NYC Administrative Code 19-152, failure to install pedestrian ramp as per DOT drawings
+I OBSERVED DEBRIS (COLD PATCH) BELONGING TO THE ABOVE RESPONDENT OBSTRUCTING ROADWAY GUTTERS. SITE UN ATTENDED. LOCATED OPPOSITE 265 23RD ST. If not admitting the charge, you MUST APPEAR IN PERSON. 
+----------> 
+Debris/construction materials obstructing gutters/sidewalk, etc.   
+
+
+Bubbled pedestrian warning devise not install on ped ramp as required by DOT specs. 
+----------> 
+Except as in NYC Administrative Code 19-152, failure to install pedestrian ramp as per DOT drawings
 
 
 Novelty
